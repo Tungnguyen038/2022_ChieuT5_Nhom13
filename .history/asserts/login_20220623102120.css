@@ -293,7 +293,7 @@ input[type="submit"] {
 
 /* The message box is shown when the user clicks on the password field */
 #message {
-  display: none;
+  display: block;
   color: #000;
   position: relative;
 }
@@ -302,14 +302,15 @@ input[type="submit"] {
   font-size: 18px;
 }
 
+/* Add a green text color and a checkmark when the requirements are right */
 .valid {
   color: green;
+  width: 100%;
 }
 
+/* Add a red text color and an "x" icon when the requirements are wrong */
 .invalid {
   color: red;
-  width: 100%;
-  display: inline-block;
 }
 
 .mes {

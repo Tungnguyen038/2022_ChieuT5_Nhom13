@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website số 1 về bất động sản</title>
+    <link
+      href="https://staticfile.batdongsan.com.vn/images/logo/favicon_redesign_xl_1.ico"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./asserts/login.css" />
+  </head>
+  <body>
+    <div class="overlay">
+      <!-- LOGN IN FORM by Omar Dsoky -->
+      <form>
+        <!--   con = Container  for items in the form-->
+        <div class="con">
+          <!--     Start  header Content  -->
+          <header class="head-form">
+            <a href="./index.html" style="text-decoration: none">
+              <h2 style="color: #fff">Log In</h2>
+            </a>
+            <!--     A welcome message or an explanation of the login form -->
+            <p>login here using your username and password</p>
+          </header>
+          <!--     End  header Content  -->
+          <br />
+          <div class="field-set">
+            <!--   user name -->
+            <!--   user name Input-->
+            <div class="form-group">
+              <div>
+                <span class="input-item">
+                  <i class="fa fa-user-circle"></i>
+                </span>
+                <input
+                  class="form-input"
+                  id="username"
+                  type="text"
+                  placeholder="@UserName"
+                />
+              </div>
+              <span class="form-message">Loi</span>
+            </div>
+
+            <br />
+
+            <!--   Password -->
+            <div class="form-group">
+              <div>
+                <span class="input-item">
+                  <i class="fa fa-key"></i>
+                </span>
+                <input
+                  class="form-input"
+                  type="password"
+                  placeholder="Password"
+                  id="password"
+                  name="password"
+                />
+              </div>
+              <span class="form-message"></span>
+            </div>
+
+            <span>
+              <i
+                class="fa fa-eye"
+                aria-hidden="true"
+                type="button"
+                id="eye"
+              ></i>
+            </span>
+            <!--      Show/hide password  -->
+
+            <br />
+            <div class="forgot">
+              <div class="forget-rmb">
+                <input type="checkbox" />
+                <span>Remember Me</span>
+              </div>
+              <a href="#">Forgot Password ?</a>
+            </div>
+            <!--        buttons -->
+            <!--      button LogIn -->
+            <a href="./index.html">
+              <button class="log-in">Log In</button>
+            </a>
+          </div>
+          <!--   other buttons -->
+          <div class="other">
+            <h4 style="font-weight: 300">Don't Have an Account ?</h4>
+            <a class="" href="./register.html"> Create an account</a>
+          </div>
+        </div>
+
+        <!-- End Form -->
+      </form>
+    </div>
+
+    <script src="./js/login.js"></script>
+    <script src="./js/validator.js"></script>
+    <script>
+      //mong muốn của chúng ta
+      Validator({
+        form: "#form-1",
+        formGroupSelector: ".form-group",
+        errorSelector: ".form-message",
+        rules: [
+          Validator.isRequired(
+            "#fullname",
+            " Vui lòng nhập tên đầy đủ của bạn"
+          ),
+          Validator.isRequired("#email"),
+          Validator.isEmail("#email", "Vui lòng nhập email của bạn"),
+          Validator.minLength("#password", 6),
+          Validator.isRequired("#password_confirmation"),
+          Validator.isRequired("#province"),
+          Validator.isRequired("#avatar"),
+          Validator.isRequired('input[name="gender"]'),
+          Validator.isConfirmed(
+            "#password_confirmation",
+            function () {
+              return document.querySelector("#form-1 #password").value;
+            },
+            "Mật khẩu nhập lại không chính xác"
+          ),
+        ],
+        onSubmit: function (data) {
+          console.log(data);
+        },
+      });
+    </script>
+  </body>
+</html>
