@@ -15,7 +15,7 @@
   <body>
     <div class="overlay">
       <!-- LOGN IN FORM by Omar Dsoky -->
-      <form action="">
+      <form>
         <!--   con = Container  for items in the form-->
         <div class="con">
           <!--     Start  header Content  -->
@@ -41,12 +41,9 @@
                   id="username"
                   type="text"
                   placeholder="@UserName"
-                  required
-                  pattern="[A-Za-z0-9\-_\.]{6,20}"
-                  title="Vui lòng nhập tối thiểu 6 ký tự và tối đa là 20 ký tự"
                 />
               </div>
-              <span class="form-message"></span>
+              <span class="form-message">Loi</span>
             </div>
 
             <br />
@@ -61,31 +58,24 @@
                   class="form-input"
                   type="password"
                   placeholder="Password"
-                  id="psw"
-                  name="psw"
-                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
-                  required
+                  id="password"
+                  name="password"
                 />
               </div>
-              <div id="message">
-                <div class="mes">
-                  <p id="letter" class="invalid">A lowercase letter</p>
-                  <p id="capital" class="invalid">
-                    A capital (uppercase) letter
-                  </p>
-                  <p id="number" class="invalid">A number</p>
-                  <p id="length" class="invalid">Minimum 8 characters></p>
-                </div>
-              </div>
+              <span class="form-message"></span>
             </div>
 
+            <span>
+              <i
+                class="fa fa-eye"
+                aria-hidden="true"
+                type="button"
+                id="eye"
+              ></i>
+            </span>
             <!--      Show/hide password  -->
             <div class="forgot">
-              <div
-                class="forget-rmb"
-                style="display: flex; align-items: center"
-              >
+              <div class="forget-rmb">
                 <input type="checkbox" />
                 <span>Remember Me</span>
               </div>
@@ -106,5 +96,37 @@
     </div>
 
     <script src="./js/login.js"></script>
+    <script src="./js/validator.js"></script>
+    <script>
+      //mong muốn của chúng ta
+      Validator({
+        form: "#form-1",
+        formGroupSelector: ".form-group",
+        errorSelector: ".form-message",
+        rules: [
+          Validator.isRequired(
+            "#fullname",
+            " Vui lòng nhập tên đầy đủ của bạn"
+          ),
+          Validator.isRequired("#email"),
+          Validator.isEmail("#email", "Vui lòng nhập email của bạn"),
+          Validator.minLength("#password", 6),
+          Validator.isRequired("#password_confirmation"),
+          Validator.isRequired("#province"),
+          Validator.isRequired("#avatar"),
+          Validator.isRequired('input[name="gender"]'),
+          Validator.isConfirmed(
+            "#password_confirmation",
+            function () {
+              return document.querySelector("#form-1 #password").value;
+            },
+            "Mật khẩu nhập lại không chính xác"
+          ),
+        ],
+        onSubmit: function (data) {
+          console.log(data);
+        },
+      });
+    </script>
   </body>
 </html>

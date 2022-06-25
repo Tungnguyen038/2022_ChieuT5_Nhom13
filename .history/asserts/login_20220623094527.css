@@ -259,60 +259,12 @@ button:hover {
   }
 }
 
-.form-group1 {
+.form-group {
   display: flex;
   flex-direction: column;
 }
 
 .form-message {
   font-size: 16px;
-  color: rgb(245, 33, 33);
-}
-
-input {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-}
-
-/* Style the submit button */
-input[type="submit"] {
-  background-color: #04aa6d;
-  color: white;
-}
-
-/* Style the container for inputs */
-.container {
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* The message box is shown when the user clicks on the password field */
-#message {
-  display: none;
-  color: #000;
-  position: relative;
-}
-
-#message p {
-  font-size: 18px;
-}
-
-.valid {
-  color: green;
-}
-
-.invalid {
   color: red;
-  width: 100%;
-  display: inline-block;
-}
-
-.mes {
-  display: flex;
-  flex-direction: column;
 }
