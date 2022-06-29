@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -238,23 +242,17 @@
                 <li class="list-cart-item">
                   <a href="#" class="list-cart-link">
                     <div class="list-cart-img">
-                      <img
-                        src="https://routine.vn/media/catalog/product/cache/59db0cfd5192c9a4d6ff231b8171cf2c/z/2/z2990008326075_2400052467f313240a78f37a3c1f3457_2.jpg"
-                        alt="có ảnh nha"
-                      />
+                      <img src="http://streaming1.danviet.vn/upload/2-2019/images/2019-06-04/Binh-Duong-thu-hoi-11-du-an--bat-dong-san-treo-nhieu-nam-img_6964-1559647481-width1200height800.jpg"/>
                     </div>
                     <div class="list-cart-right">
                       <div class="heading-cart">
-                        <h3>
-                          ÁO POLO, NHÃN TRANG TRÍÁO POLO, NHÃN TRANG TRÍÁO POLO,
-                          NHÃN TRANG TRÍ
-                        </h3>
-                        <input type="checkbox" name="" id="" />
+                        <h3>52/4, Phú Sơn, Trảng Bom, Đồng Nai</h3>
+                        <input type="checkbox"/>
                       </div>
-                      <span class="span1">S/ BRIGHT WHITE</span>
-                      <span class="span2">380.000 đ</span>
+                      <span class="span1">2 mặt tiền</span>
+                      <span class="span2">5.000.000.000 đ</span>
                       <div class="quantity-cart">
-                        <span>Tới sản phẩm</span>
+                        <span>Chi tiết</span>
                       </div>
                     </div>
                   </a>
@@ -262,20 +260,17 @@
                 <li class="list-cart-item">
                   <a href="#" class="list-cart-link">
                     <div class="list-cart-img">
-                      <img src="./img1/HOME5.jpg" alt="có ảnh nha" />
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBKHCbYx2IoVhYwR3S-RzhJlAosYx4dsfWCg&usqp=CAU"/>
                     </div>
                     <div class="list-cart-right">
                       <div class="heading-cart">
-                        <h3>
-                          ÁO POLO, NHÃN TRANG TRÍÁO POLO, NHÃN TRANG TRÍÁO POLO,
-                          NHÃN TRANG TRÍ
-                        </h3>
-                        <input type="checkbox" name="" id="" />
+                        <h3>Phường 5, Bình Thạnh, Thành Phố Hồ Chí Minh</h3>
+                        <input type="checkbox"/>
                       </div>
-                      <span class="span1">S/ BRIGHT WHITE</span>
-                      <span class="span2">380.000 đ</span>
+                      <span class="span1">1 mặt tiền</span>
+                      <span class="span2">1.500.000.000 đ</span>
                       <div class="quantity-cart">
-                        <span>Tới sản phẩm</span>
+                        <span>Chi tiết</span>
                       </div>
                     </div>
                   </a>
@@ -283,23 +278,17 @@
                 <li class="list-cart-item">
                   <a href="#" class="list-cart-link">
                     <div class="list-cart-img">
-                      <img
-                        src="https://routine.vn/media/catalog/product/cache/59db0cfd5192c9a4d6ff231b8171cf2c/z/2/z2990008326075_2400052467f313240a78f37a3c1f3457_2.jpg"
-                        alt="có ảnh nha"
-                      />
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2bThv6T9cMVLLiUoof6zhQ_IlEsGE2ZmKA&usqp=CAU"/>
                     </div>
                     <div class="list-cart-right">
                       <div class="heading-cart">
-                        <h3>
-                          ÁO POLO, NHÃN TRANG TRÍÁO POLO, NHÃN TRANG TRÍÁO POLO,
-                          NHÃN TRANG TRÍ
-                        </h3>
-                        <input type="checkbox" name="" id="" />
+                        <h3>45/14, Trảng Dài, Biên Hòa, Đồng Nai</h3>
+                        <input type="checkbox"/>
                       </div>
-                      <span class="span1">S/ BRIGHT WHITE</span>
-                      <span class="span2">380.000 đ</span>
+                      <span class="span1">1 mặt tiền</span>
+                      <span class="span2">2.000.000.000 đ</span>
                       <div class="quantity-cart">
-                        <span>Tới sản phẩm</span>
+                        <span>Chi tiết</span>
                       </div>
                     </div>
                   </a>
@@ -307,23 +296,17 @@
                 <li class="list-cart-item">
                   <a href="#" class="list-cart-link">
                     <div class="list-cart-img">
-                      <img
-                        src="https://routine.vn/media/catalog/product/cache/59db0cfd5192c9a4d6ff231b8171cf2c/z/2/z2990008326075_2400052467f313240a78f37a3c1f3457_2.jpg"
-                        alt="có ảnh nha"
-                      />
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2bThv6T9cMVLLiUoof6zhQ_IlEsGE2ZmKA&usqp=CAU"/>
                     </div>
                     <div class="list-cart-right">
                       <div class="heading-cart">
-                        <h3>
-                          ÁO POLO, NHÃN TRANG TRÍÁO POLO, NHÃN TRANG TRÍÁO POLO,
-                          NHÃN TRANG TRÍ
-                        </h3>
-                        <input type="checkbox" name="" id="" />
+                        <h3>45/14, Trảng Dài, Biên Hòa, Đồng Nai</h3>
+                        <input type="checkbox"/>
                       </div>
-                      <span class="span1">S/ BRIGHT WHITE</span>
-                      <span class="span2">380.000 đ</span>
+                      <span class="span1">1 mặt tiền</span>
+                      <span class="span2">2.000.000.000 đ</span>
                       <div class="quantity-cart">
-                        <span>Tới sản phẩm</span>
+                        <span>Chi tiết</span>
                       </div>
                     </div>
                   </a>
@@ -331,23 +314,17 @@
                 <li class="list-cart-item">
                   <a href="#" class="list-cart-link">
                     <div class="list-cart-img">
-                      <img
-                        src="https://routine.vn/media/catalog/product/cache/59db0cfd5192c9a4d6ff231b8171cf2c/z/2/z2990008326075_2400052467f313240a78f37a3c1f3457_2.jpg"
-                        alt="có ảnh nha"
-                      />
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2bThv6T9cMVLLiUoof6zhQ_IlEsGE2ZmKA&usqp=CAU"/>
                     </div>
                     <div class="list-cart-right">
                       <div class="heading-cart">
-                        <h3>
-                          ÁO POLO, NHÃN TRANG TRÍÁO POLO, NHÃN TRANG TRÍÁO POLO,
-                          NHÃN TRANG TRÍ
-                        </h3>
-                        <input type="checkbox" name="" id="" />
+                        <h3>45/14, Trảng Dài, Biên Hòa, Đồng Nai</h3>
+                        <input type="checkbox"/>
                       </div>
-                      <span class="span1">S/ BRIGHT WHITE</span>
-                      <span class="span2">380.000 đ</span>
+                      <span class="span1">1 mặt tiền</span>
+                      <span class="span2">2.000.000.000 đ</span>
                       <div class="quantity-cart">
-                        <span>Tới sản phẩm</span>
+                        <span>Chi tiết</span>
                       </div>
                     </div>
                   </a>
@@ -355,23 +332,17 @@
                 <li class="list-cart-item">
                   <a href="#" class="list-cart-link">
                     <div class="list-cart-img">
-                      <img
-                        src="https://routine.vn/media/catalog/product/cache/59db0cfd5192c9a4d6ff231b8171cf2c/z/2/z2990008326075_2400052467f313240a78f37a3c1f3457_2.jpg"
-                        alt="có ảnh nha"
-                      />
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2bThv6T9cMVLLiUoof6zhQ_IlEsGE2ZmKA&usqp=CAU"/>
                     </div>
                     <div class="list-cart-right">
                       <div class="heading-cart">
-                        <h3>
-                          ÁO POLO, NHÃN TRANG TRÍÁO POLO, NHÃN TRANG TRÍÁO POLO,
-                          NHÃN TRANG TRÍ
-                        </h3>
-                        <input type="checkbox" name="" id="" />
+                        <h3>45/14, Trảng Dài, Biên Hòa, Đồng Nai</h3>
+                        <input type="checkbox"/>
                       </div>
-                      <span class="span1">S/ BRIGHT WHITE</span>
-                      <span class="span2">380.000 đ</span>
+                      <span class="span1">1 mặt tiền</span>
+                      <span class="span2">2.000.000.000 đ</span>
                       <div class="quantity-cart">
-                        <span>Tới sản phẩm</span>
+                        <span>Chi tiết</span>
                       </div>
                     </div>
                   </a>
@@ -379,23 +350,17 @@
                 <li class="list-cart-item">
                   <a href="#" class="list-cart-link">
                     <div class="list-cart-img">
-                      <img
-                        src="https://routine.vn/media/catalog/product/cache/59db0cfd5192c9a4d6ff231b8171cf2c/z/2/z2990008326075_2400052467f313240a78f37a3c1f3457_2.jpg"
-                        alt="có ảnh nha"
-                      />
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2bThv6T9cMVLLiUoof6zhQ_IlEsGE2ZmKA&usqp=CAU"/>
                     </div>
                     <div class="list-cart-right">
                       <div class="heading-cart">
-                        <h3>
-                          ÁO POLO, NHÃN TRANG TRÍÁO POLO, NHÃN TRANG TRÍÁO POLO,
-                          NHÃN TRANG TRÍ
-                        </h3>
-                        <input type="checkbox" name="" id="" />
+                        <h3>45/14, Trảng Dài, Biên Hòa, Đồng Nai</h3>
+                        <input type="checkbox"/>
                       </div>
-                      <span class="span1">S/ BRIGHT WHITE</span>
-                      <span class="span2">380.000 đ</span>
+                      <span class="span1">1 mặt tiền</span>
+                      <span class="span2">2.000.000.000 đ</span>
                       <div class="quantity-cart">
-                        <span>Tới sản phẩm</span>
+                        <span>Chi tiết</span>
                       </div>
                     </div>
                   </a>
@@ -403,23 +368,17 @@
                 <li class="list-cart-item">
                   <a href="#" class="list-cart-link">
                     <div class="list-cart-img">
-                      <img
-                        src="https://routine.vn/media/catalog/product/cache/59db0cfd5192c9a4d6ff231b8171cf2c/z/2/z2990008326075_2400052467f313240a78f37a3c1f3457_2.jpg"
-                        alt="có ảnh nha"
-                      />
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2bThv6T9cMVLLiUoof6zhQ_IlEsGE2ZmKA&usqp=CAU"/>
                     </div>
                     <div class="list-cart-right">
                       <div class="heading-cart">
-                        <h3>
-                          ÁO POLO, NHÃN TRANG TRÍÁO POLO, NHÃN TRANG TRÍÁO POLO,
-                          NHÃN TRANG TRÍ
-                        </h3>
-                        <input type="checkbox" name="" id="" />
+                        <h3>45/14, Trảng Dài, Biên Hòa, Đồng Nai</h3>
+                        <input type="checkbox"/>
                       </div>
-                      <span class="span1">S/ BRIGHT WHITE</span>
-                      <span class="span2">380.000 đ</span>
+                      <span class="span1">1 mặt tiền</span>
+                      <span class="span2">2.000.000.000 đ</span>
                       <div class="quantity-cart">
-                        <span>Tới sản phẩm</span>
+                        <span>Chi tiết</span>
                       </div>
                     </div>
                   </a>
@@ -427,23 +386,17 @@
                 <li class="list-cart-item">
                   <a href="#" class="list-cart-link">
                     <div class="list-cart-img">
-                      <img
-                        src="https://routine.vn/media/catalog/product/cache/59db0cfd5192c9a4d6ff231b8171cf2c/z/2/z2990008326075_2400052467f313240a78f37a3c1f3457_2.jpg"
-                        alt="có ảnh nha"
-                      />
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2bThv6T9cMVLLiUoof6zhQ_IlEsGE2ZmKA&usqp=CAU"/>
                     </div>
                     <div class="list-cart-right">
                       <div class="heading-cart">
-                        <h3>
-                          ÁO POLO, NHÃN TRANG TRÍÁO POLO, NHÃN TRANG TRÍÁO POLO,
-                          NHÃN TRANG TRÍ
-                        </h3>
-                        <input type="checkbox" name="" id="" />
+                        <h3>45/14, Trảng Dài, Biên Hòa, Đồng Nai</h3>
+                        <input type="checkbox"/>
                       </div>
-                      <span class="span1">S/ BRIGHT WHITE</span>
-                      <span class="span2">380.000 đ</span>
+                      <span class="span1">1 mặt tiền</span>
+                      <span class="span2">2.000.000.000 đ</span>
                       <div class="quantity-cart">
-                        <span>Tới sản phẩm</span>
+                        <span>Chi tiết</span>
                       </div>
                     </div>
                   </a>
@@ -599,7 +552,7 @@
           ></i>
           <!-- Title Bar -->
           <!--     <span class="titleBar">
-      <h1>I am like a leaf in the wind.</h1> 
+      <h1>I am like a leaf in the wind.</h1>
       <p>Watch me soar!</p>
   </span> -->
         </div>
@@ -788,12 +741,10 @@
       </div>
     </div>
 
-    <div
-      class="delete-cart animate__animated animate__fadeInBottomRight"
-      style="transition: all 0.5s"
-    >
+    <div class="delete-cart animate__animated animate__fadeInBottomRight" style="transition: all 0.5s">
       <button class="del-cart">Xóa</button>
       <button class="edit-cart">sửa</button>
+      <button class="edit-cart" onclick="window.location.href='Payment.php'">Thanh toán</button>
     </div>
 
     <script src="./js/home.js"></script>

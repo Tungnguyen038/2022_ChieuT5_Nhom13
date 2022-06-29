@@ -22,54 +22,58 @@ body {
   font-family: "Abel", sans-serif;
   opacity: 0.95;
   /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
-    /* background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  /* background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
-    background-color: #dee9ff;
-background-attachment: fixed;
+  background-color: #dee9ff;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 
-    font-family: 'Vibur', cursive;
-/*   the main font */
-    font-family: 'Abel', sans-serif;
-opacity: .95;
-background: #8360c3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Vibur", cursive;
+  /*   the main font */
+  font-family: "Abel", sans-serif;
+  opacity: 0.95;
+  background: #8360c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-color: #fff;
+  color: #fff;
 }
 a {
-    color: blue;
+  color: blue;
 }
 a:hover {
-    color: #fff;
-    transition: all 1s;
+  color: #fff;
+  transition: all 1s;
 }
 .other {
-    margin-top: 16px;
-    /* width: 100%; */
-    padding: 0 44px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    transition: all .4s;
-    color: #fff;
+  margin-top: 16px;
+  /* width: 100%; */
+  padding: 0 44px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  transition: all 0.4s;
+  color: #fff;
 }
 
 .forgot {
-    margin-top: 16px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 17px;
-    color: #fff;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  color: #fff;
 }
 .forgot a:hover {
-    color: #fff;
-
+  color: #fff;
 }
-
-
 
 /* End body rules */
 
@@ -82,17 +86,24 @@ form {
   box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
   padding: 2%;
   background-image: linear-gradient(-225deg, #e3fdf5 50%, #ffe6fa 50%);
-    width: 450px;
-    min-height: 500px;
-    height: auto;
-    border-radius: 5px;
-    margin: 2% auto;
-    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
-    padding: 2%;
-    background: #8360c3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+  width: 450px;
+  min-height: 500px;
+  height: auto;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+  padding: 2%;
+  background: #8360c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /* form Container */
 form .con {
@@ -213,10 +224,10 @@ button {
   margin-left: 2%;
 }
 .submits__logup {
-    width: 48%;
-    display: inline-block;
-    float: left;
-    margin-left: 2%;
+  width: 48%;
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
 }
 
 /*       Forgot Password button FAF3DD  */
@@ -246,4 +257,62 @@ button:hover {
   100% {
     transform: translateY(5px);
   }
+}
+
+.form-group1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-message {
+  font-size: 16px;
+  color: rgb(245, 33, 33);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display: none;
+  color: #000;
+  position: relative;
+}
+
+#message p {
+  font-size: 18px;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+  width: 100%;
+  display: inline-block;
+}
+
+.mes {
+  display: flex;
+  flex-direction: column;
 }
