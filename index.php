@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -151,7 +152,7 @@
             </a>
           </li>
           <li class="header-right-right-item">
-            <a href="./register.html" class="header-login">
+            <a href="dangky.php" class="header-login">
                   <span class="header-right_title border-bottom"
                   >Đăng ký</span
                   >
