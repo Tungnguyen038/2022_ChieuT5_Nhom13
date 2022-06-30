@@ -28,7 +28,7 @@
       // echo $_GET['fullName'];
       header("Location: index.php");
     }else{
-      echo '<script>alert("Login faild")</script>';
+      echo '<script>alert("Welcome to Geeks for Geeks")</script>';
     }
    } catch (\Throwable $th) {
     echo "Errors!!";

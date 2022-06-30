@@ -29,6 +29,7 @@
       header("Location: index.php");
     }else{
       echo '<script>alert("Login faild")</script>';
+      header('Location: login.php');
     }
    } catch (\Throwable $th) {
     echo "Errors!!";

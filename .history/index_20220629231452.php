@@ -157,7 +157,7 @@ session_start();
    <li class="header-right-right-item">
    <a href="./login.php" class="header-login">
    <span class="header-right_title border-bottom"
-       ><?php echo "Xin chào:  ".$_COOKIE['fullName']?></span
+       ><?php echo "Xin chào:".$_COOKIE['fullName']?></span
      >
      </a>
  </li>

@@ -28,6 +28,7 @@
       // echo $_GET['fullName'];
       header("Location: index.php");
     }else{
+      header('Location: login.php');
       echo '<script>alert("Login faild")</script>';
     }
    } catch (\Throwable $th) {
